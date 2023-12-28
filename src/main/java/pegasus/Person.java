@@ -28,3 +28,5 @@ public record Person(
                 '}';
     }
 }
+
+// Records don't work in Java 8. They didn't exist back then. Upgrade to Java 17 or 21.

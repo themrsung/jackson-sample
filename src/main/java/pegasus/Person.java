@@ -3,7 +3,7 @@ package pegasus;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public record Person(
-        @JsonProperty
+        @JsonProperty // Annotation not required, but recommended. See also @JsonIgnore if you're interested.
         String name,
 
         @JsonProperty

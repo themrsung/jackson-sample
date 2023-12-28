@@ -20,6 +20,7 @@ public record Person(
 
     @Override
     public String toString() {
+        // String conversion is (sort of) automatic, but manual serialization is recommended. Either mess around doing stuff or read the docs (I didn't btw)
         return "Person{" +
                 "name='" + name + '\'' +
                 ", age=" + age +

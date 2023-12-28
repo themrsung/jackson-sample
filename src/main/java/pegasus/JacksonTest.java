@@ -8,6 +8,8 @@ import com.fasterxml.jackson.dataformat.yaml.YAMLMapper;
 import java.io.File;
 import java.io.IOException;
 
+// COPYRIGHT: I don't care, do whatever you want with this.
+
 // DISCLAIMER: I could not care less about industry standards.
 
 public class JacksonTest {
